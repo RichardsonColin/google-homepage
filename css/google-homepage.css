@@ -2,6 +2,7 @@
 	font-size: small;
 	color: #222;
 	font-family: arial, sans-serif;
+	margin: 0;
 }
 /* logo */
 #main {
@@ -11,8 +12,8 @@
 }
 #glogo {
 	display: inline-block;
-	max-width: 235px;
-	max-height: 235px;
+	max-width: 260px;
+	max-height: 260px;
 	width: auto;
 	height: auto;
 	margin: 0 auto 0 auto;
@@ -26,6 +27,7 @@
 }
 .navbar ul {
 	list-style-type: none;
+	padding: 15px;
 }
 .navbar li {
 	display: inline-block;
@@ -102,4 +104,34 @@
 	border: 1px solid #c6c6c6;
 	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
 	color: #222;
+}
+#footer {
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 40px;
+	bottom: 0;
+	font-size: 10px;
+	background: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+}
+#fbar {
+	line-height: 40px;
+}
+#fbar #fbar_right {
+	float: right;
+}
+#fbar #fbar_left {
+	float: left;
+}
+#footer a {
+	color: #666;
+	text-decoration: none;
+	padding-left: 27px;
+}
+#footer #fbar_right {
+	padding-right: 25px;
+}
+#footer a:hover {
+	text-decoration: underline;
 }
